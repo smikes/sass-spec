@@ -1,0 +1,13 @@
+$str: f\'o\'o;
+
+.single-test {
+  test: '#{$str}';
+}
+
+.double-test {
+  test: "#{$str}";
+}
+
+.none-test {
+  test: #{$str};
+}

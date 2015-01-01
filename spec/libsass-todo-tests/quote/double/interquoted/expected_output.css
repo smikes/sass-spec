@@ -1,0 +1,8 @@
+.single-test {
+  test: "f'o'o"; }
+
+.double-test {
+  test: "f'o'o"; }
+
+.none-test {
+  test: f'o'o; }

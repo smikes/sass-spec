@@ -1,0 +1,10 @@
+$str: "\\";
+
+.double-test {
+  test: "" + #{$str};
+  test: "#{$str}";
+  test: '#{$str}';
+  test: "a#{$str}b";
+  test: 'a#{$str}b';
+}
+
